@@ -1,0 +1,102 @@
+.contacts{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #4a4a4a;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 540px;
+    margin-top: -30px;
+}
+
+.formArea, .messageArea {
+    background: whitesmoke;
+    border: 1px solid #4a4a4a;
+    box-sizing: border-box;
+    font-size: 12px;
+    outline: none;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1.2rem;
+    color: #4a4a4a;
+}
+
+.formArea:focus, .messageArea:focus {
+    border: 1px solid #8adea8;
+}
+
+.messageArea {
+    min-height: 160px;
+    padding: 15px;
+}
+
+.messageArea::placeholder{
+    font-family: Arial;
+
+}
+.formArea {
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem 15px;
+}
+
+.btnSubmit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    padding: 8px 30px;
+    max-width: 180px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #4a4a4a;
+    outline: none;
+    margin-top: 10px;
+    position: relative;
+    background-color: transparent;
+}
+
+.btnSubmit::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 10px;
+    background: #8adea8;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.5s ease-in-out;
+}
+
+.btnSubmit:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btnSubmit:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 626px){
+    .formWrapper {
+        width: 100%
+    }
+}
+

@@ -1,0 +1,25 @@
+.mainNew {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    padding: 100px 30px 0 30px;
+    background-color: #ededed;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.greeting {
+    color: #4a4a4a;
+}
+
+
+.photo {
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    align-self: flex-end
+
+
+}
+
+

@@ -1,0 +1,30 @@
+.message{
+    background-color: #252527;
+    display: flex;
+    justify-content: center;
+    position: relative
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.btnShow {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border: none;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
