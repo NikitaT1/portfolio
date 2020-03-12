@@ -22,3 +22,9 @@
     background-color: #8adea8;
 }
 
+@media screen and (max-width: 630px){
+    .title {
+        font-size: 24px;
+    }
+}
+

@@ -16,4 +16,28 @@
     align-items: center;
 }
 
+@media screen and (max-width: 1128px){
+    .header {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .header {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1128px){
+    .header {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .header {
+        width: 90%;
+    }
+}
+
 

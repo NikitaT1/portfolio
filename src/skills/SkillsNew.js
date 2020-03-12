@@ -5,7 +5,7 @@ import SkillNew from './SkillNew';
 import Fade from "react-reveal/Fade";
 import reactImg from '../assets/img/iconReact.png';
 import jsImg from '../assets/img/iconJS.png';
-import htmlcssImg from '../assets/img/telegram.svg';
+import htmlcssImg from '../assets/img/htmlcssIcon.jpg';
 import typeScriptImg from '../assets/img/typescript.png';
 import englishImg from '../assets/img/english.svg';
 
