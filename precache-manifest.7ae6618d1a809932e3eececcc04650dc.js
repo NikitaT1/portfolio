@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66717969cb26a1aa00545fe8280ee597",
+    "revision": "6188ce75313cb24d566435a139a4b836",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "84106ac34296b394aad4",
-    "url": "/portfolio/static/css/main.c718f157.chunk.css"
+    "revision": "28922238fe55456a10ea",
+    "url": "/portfolio/static/css/main.40de9d8b.chunk.css"
   },
   {
     "revision": "78749f9b824c2d782b27",
     "url": "/portfolio/static/js/2.442378c5.chunk.js"
   },
   {
-    "revision": "84106ac34296b394aad4",
-    "url": "/portfolio/static/js/main.584c68c9.chunk.js"
+    "revision": "28922238fe55456a10ea",
+    "url": "/portfolio/static/js/main.70f620db.chunk.js"
   },
   {
     "revision": "4234e20402381065f478",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c2723d4932217e3b37b67d38f03bbcb3",
     "url": "/portfolio/static/media/english.c2723d49.svg"
+  },
+  {
+    "revision": "d96b7b56a16aeeabf487535b31dfcd5c",
+    "url": "/portfolio/static/media/htmlcssIcon.d96b7b56.jpg"
   },
   {
     "revision": "398d415efd48f051472cbb38be26b8bd",
@@ -42,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3203df3aee62ee31fcaff3eb9ef042c0",
     "url": "/portfolio/static/media/telegram.3203df3a.png"
-  },
-  {
-    "revision": "7f22d71d06b61aa3c820a2bb08e88a30",
-    "url": "/portfolio/static/media/telegram.7f22d71d.svg"
   },
   {
     "revision": "ff20dd3ed47fa692be11f4f6061a10ce",
