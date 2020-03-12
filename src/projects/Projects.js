@@ -4,6 +4,7 @@ import BlockTitle from './BlockTitle';
 import Project from "./project/Project";
 //import socialnetworkByImg from './assets/img';
 import Fade from "react-reveal/Fade";
+import socialNetworkIcon from "../assets/img/socialNetworkIcon.png";
 
 function Projects() {
 
@@ -18,7 +19,7 @@ function Projects() {
           <BlockTitle title={"My projects"} />
         <div className={styles.projectsWrapper}>
           <Project title={"Social network"}
-                   /*style={socialNetworkImg}*/
+                   style={{backgroundImage: `url(${socialNetworkIcon})`}}
                    description={"---------------------"}/>
           <Project title={"Todo list"}
                    description={"---------------------"}/>

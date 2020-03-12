@@ -4,15 +4,57 @@
     flex-direction: column;
 }
 
+.project a{
+    text-decoration: none;
+}
+
 .projectImg {
     height: 300px;
-    background-color: #ededed;
+    background-color: white;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
+
+.project:hover .projectImg::after, .project:hover .nameProject {
+    opacity: .6;
+}
+
+.projectImg::after {
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: .4s;
+    position: absolute;
+    background-color: #111111;
+}
+
+.nameProject {
+    color: #8adea8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .4s;
+    z-index: 6;
+}
+
+
+
+
+
+
 
 .btnShow {
     width: 150px;
@@ -23,6 +65,23 @@
     align-items: center;
     font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
+}
+
+.btnShow::after {
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.btnShow:hover {
+    color: green;
+    text-decoration: none;
 }
 
 
