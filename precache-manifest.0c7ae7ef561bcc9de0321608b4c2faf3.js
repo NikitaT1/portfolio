@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b70ce29efc4f9d0e66565e943d60bfaa",
+    "revision": "015ed627d7c2bedd0e469c843ec429f1",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "9da4f60a04356e4ee2ff",
-    "url": "/portfolio/static/css/main.9291903b.chunk.css"
+    "revision": "1066ffb6d64b614738b4",
+    "url": "/portfolio/static/css/main.5f86ecb8.chunk.css"
   },
   {
-    "revision": "45f001ff77ccd44d9250",
-    "url": "/portfolio/static/js/2.89304e93.chunk.js"
+    "revision": "8ee8476e0711dcd9bc03",
+    "url": "/portfolio/static/js/2.5243a2f5.chunk.js"
   },
   {
-    "revision": "9da4f60a04356e4ee2ff",
-    "url": "/portfolio/static/js/main.b0202700.chunk.js"
+    "revision": "1066ffb6d64b614738b4",
+    "url": "/portfolio/static/js/main.f64c1756.chunk.js"
   },
   {
     "revision": "4234e20402381065f478",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/phone.581af562.svg"
   },
   {
-    "revision": "2d012752738fa7e31c03bbfb386bbdc7",
-    "url": "/portfolio/static/media/photo_2020-03-06_12-56-08.2d012752.jpg"
+    "revision": "b9567a258440d37fc4921d6de00d60eb",
+    "url": "/portfolio/static/media/ptmk.b9567a25.png"
   },
   {
     "revision": "5f3116b4c1c4787f89ec7d0a1de5932a",
