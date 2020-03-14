@@ -12,7 +12,7 @@ const ContactMeForm = (props) => {
             <Field className={styles.formArea} placeholder="Имя" component={"input"} name={"user_name"}/>
             <Field className={styles.formArea} placeholder="e-mail"  component={"input"} name={"user_email"}/>
             <Field className={styles.messageArea} placeholder="message" component={"textarea"} name={"message"}/>
-            <button className={styles.btnSubmit}>отправить</button>
+            <button className={styles.btnSubmit}>send</button>
         </form>
     )
 }
@@ -20,7 +20,6 @@ const ContactMeForm = (props) => {
 const ContactReduxForm = reduxForm({form:'contact'})(ContactMeForm)
 
 const ContactMe = (props) => {
-
     const onSubmit = (formData) => {
         console.log(formData)
     }

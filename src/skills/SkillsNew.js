@@ -31,32 +31,33 @@ let SkillsNew =(props) => {
         backgroundImage: `url(${englishImg})`,
     };
 
-  return (
-    <div id={"skills"} className={styles.skills}>
-      <Fade clear>
-      <div className={styles.container}>
-        <BlockTitle title={"Skills"}/>
-        <div className={styles.skillsWrapper}>
-          <SkillNew title={"JS"}
-                    description={"-------------"}
-                    style={jsIcon}/>
-          <SkillNew title={"React"}
-                    description={"-------------"}
-                    style={reactIcon}/>
-          <SkillNew title={"HTML&CSS"}
-                    description={"-------------"}
-                    style={htmlcssIcon}/>
-          <SkillNew title={"TypeScript"}
-                    description={"-------------"}
-                    style={typeScriptIcon}/>
-          <SkillNew title={"English"}
-                    description={"Advanced level"}
-                    style={englishIcon}/>
+    return (
+        <div id={"skills"} className={styles.skills}>
+            <Fade clear>
+                <div className={styles.container}>
+                    <BlockTitle title={"Skills"}/>
+                    <div className={styles.skillsWrapper}>
+                        <SkillNew title={"JavaScript"}
+                                  description={"-------------"}
+                                  style={jsIcon}/>
+                        <SkillNew title={"React"}
+                                  description={"-------------"}
+                                  style={reactIcon}/>
+                        <SkillNew title={"TypeScript"}
+                                  description={"-------------"}
+                                  style={typeScriptIcon}/>
+                        <SkillNew title={"English"}
+                                  description={"Advanced level"}
+                                  style={englishIcon}/>
+                        <SkillNew title={"HTML&CSS"}
+                                  description={"-------------"}
+                                  style={htmlcssIcon}/>
+
+                    </div>
+                </div>
+            </Fade>
         </div>
-      </div>
-      </Fade>
-    </div>
-  );
+    );
 }
 
 export default SkillsNew;
